@@ -1,9 +1,3 @@
-Here is your **ready-to-paste, complete, polished `README.md`** for your XAMPP + PHP Resume-Studio project — no placeholders, no extra questions.
-Just copy → paste into your repository.
-
----
-
-```markdown
 # Resume-Studio
 
 [![Built With: PHP](https://img.shields.io/badge/Built%20With-PHP-blue)]()
