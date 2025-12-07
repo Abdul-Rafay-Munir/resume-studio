@@ -1,16 +1,15 @@
 # resume‑studio
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
-
 ## 🔧 What is resume‑studio
 
-`resume‑studio` is a simple PHP-based resume builder / resume generator. It allows users to build and generate resumes using customizable templates and a backend built with PHP + SQL.  
+`resume‑studio` is a simple PHP-based resume builder / resume generator. It allows users to build and generate resumes using customizable templates and a backend built with PHP + SQL.
+
 The project includes:  
 
-- A web UI (PHP pages) for entering resume data.  
-- Template-based resume generation (HTML → PDF).  
-- A database schema to store/retrieve resume entries (`resume_builder_db.sql`).  
-- Support files and dependencies (e.g. `dompdf` for PDF generation).  
+- A web UI (PHP pages) for entering resume data
+- Template-based resume generation (HTML → PDF)
+- A database schema to store/retrieve resume entries (`resume_builder_db.sql`)
+- Support files and dependencies (e.g. `dompdf` for PDF generation)
 
 ---
 
@@ -49,28 +48,28 @@ resume‑studio/
 
 ## 📝 Usage
 
-* Fill in your resume details via the web UI.
-* Choose a template (from `templates/`) for how your resume should look.
-* Generate your resume — the system will produce a downloadable PDF using `dompdf`.
-* Manage previously created resumes via `dashboard.php`.
+* Fill in your resume details via the web UI
+* Choose a template (from `templates/`) for how your resume should look
+* Generate your resume — the system will produce a downloadable PDF using `dompdf`
+* Manage previously created resumes via `dashboard.php`
 
 ---
 
 ## ✅ Features
 
-* HTML → PDF conversion via `dompdf`.
-* Multiple resume templates.
-* Database-backed storage for resume data.
-* Easy to deploy on any PHP + MySQL enabled server.
+* HTML → PDF conversion via `dompdf`
+* Multiple resume templates
+* Database-backed storage for resume data
+* Easy to deploy on any PHP + MySQL enabled server
 
 ---
 
 ## 🚧 Known Limitations / TODOs
 
-* No authentication / user‑accounts — resumes are stored globally (not per user).
-* Template styling is minimal; customizing templates requires manual HTML/CSS edits.
-* No input validation or sanitization — consider adding security/hardening before public use.
-* No export history or versioning system for resumes.
+* No authentication / user‑accounts — resumes are stored globally (not per user)
+* Template styling is minimal; customizing templates requires manual HTML/CSS edits
+* No input validation or sanitization — consider adding security/hardening before public use
+* No export history or versioning system for resumes
 
 ---
 
@@ -78,12 +77,10 @@ resume‑studio/
 
 Contributions are welcome! You can help by:
 
-* Adding new resume templates (in `/templates`).
-* Improving styling, adding CSS themes.
-* Adding user authentication or session support.
-* Validating / sanitizing user inputs.
-* Improving documentation.
+* Adding new resume templates (in `/templates`)
+* Improving styling, adding CSS themes
+* Adding user authentication or session support
+* Validating / sanitizing user inputs
+* Improving documentation
 
-Feel free to fork the repository, make enhancements, and submit a pull request.
-::contentReference[oaicite:2]{index=2}
-```
+Feel free to fork the repository, make enhancements, and submit a pull request
